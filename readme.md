@@ -22,7 +22,7 @@ import "github.com/xinyulu3344/os_info"
 获取内核版本
 func (o *OsInfo) GetKernelVersion() string
 
-获取Linux发行版
+获取Linux发行版，类似于Python中platform模块的linux_distribution()方法
 func (o *OsInfo) GetLinuxDistribution() []string
 ```
 
